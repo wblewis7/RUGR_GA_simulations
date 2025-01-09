@@ -21,8 +21,6 @@ R and NIMBLE code for analyzing simulated RUGR survey data generated in RUGR_gen
 Parameters for generating simulated monitoring data for RUGR are stored in the 'RUGR.NGA.simulation.data.gzip' file. The parameters are for simulating montiroing data for RUGR  The study design and simulation parameters are based on a previous analysis of RUGR point count data (Lewis et al. 2022. Abundance and distribution of ruffed grouse Bonasa umbellus at the southern periphery of the range) and a preliminary analysis of ARU data from the study region.
 ### surveydata
 A matrix giving the landscape covariates for each of 633 survey locations in North Georgia. Suvey locations (Point) are organized into 59 roadside survey routes (Route). Survey-level landscape covariates are mean elevation (elev), Latitude, aspect (decomposed to eastness and northness), and canopy height (canheight) within 200 m of the point count center. All landscape covariates are standardized.
-### Nroutes
-The total number of roadside survey routes (59).
 ### lambda_params_intercepts
 A vector giving the intercepts for the abundance modeling. Data are simulated under four different levels of abundance, corresponding to average RUGR densities of 0.003, 0.006, 0.011, and 0.022 males/ha, respectively, across the study area.
 ### lambda_params_cov
