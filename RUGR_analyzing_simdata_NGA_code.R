@@ -1,9 +1,9 @@
 ################################################################################
-## Code for simulating survey data for monitoring ruffed grouse (Bonasa umbellus)
+## Code for analyzing simulated survey data for monitoring ruffed grouse (Bonasa umbellus)
 ##  across a 858,000 ha study area in North Georgia (GA), USA, from Clayton D. Delancey,
-##  William B. Lewis, Gregory T. Wann, Richard B. Chandler, Emily Rushton, and James A.
-##  Martin. Assessing the utility of autonomous recording units and spring drumming surveys
-##  for monitoring abundance of ruffed grouse (Bonasa umbellus).
+##  William B. Lewis, Gregory T. Wann, Richard B. Chandler, Emily Rushton, and James A. 
+##  Martin. Assessing the utility of autonomous recording units and spring drumming 
+##  surveys for monitoring abundance of ruffed grouse (Bonasa umbellus).
 ## Corresponding author: Will Lewis (wblewis7@gmail.com), University of Georgia.
 ################################################################################
 
