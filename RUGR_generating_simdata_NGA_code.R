@@ -1,16 +1,16 @@
 ################################################################################
 ## Code for simulating survey data for monitoring ruffed grouse (Bonasa umbellus)
 ##  across a 858,000 ha study area in North Georgia (GA), USA, from Clayton D. Delancey,
-##  William B. Lewis1, Gregory T. Wann, Richard B. Chandler, Mark D. McConnell3, Emily
-##  Rushton, and James A. Martin. Assessing the utility of Automated Recording Units 
-##  and spring drumming surveys for monitoring abundance of Ruffed Grouse (Bonasa umbellus).
+##  William B. Lewis, Gregory T. Wann, Richard B. Chandler, Emily Rushton, and James A.
+##  Martin. Assessing the utility of autonomous recording units and spring drumming surveys
+##  for monitoring abundance of ruffed grouse (Bonasa umbellus).
 ## Corresponding author: Will Lewis (wblewis7@gmail.com), University of Georgia.
 ################################################################################
 
 
 
 # Simulating monitoring data for ruffed grouse (RUGR) via spring roadside drumming 
-#   point counts with or without deployment of Automated Recording Units (ARUs).
+#   point counts with or without deployment of Autonomous Recording Units (ARUs).
 #   Grouse abundance in this area has been monitored using spring roadside drumming 
 #   counts at 59 roadside survey routes, each consisting of 8 - 15 survey points
 #   (633 survey point total).
