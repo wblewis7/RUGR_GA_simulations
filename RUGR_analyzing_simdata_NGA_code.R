@@ -1,16 +1,16 @@
 ################################################################################
-## Code for analyzing simulated survey data for monitoring ruffed grouse (Bonasa umbellus)
+## Code for simulating survey data for monitoring ruffed grouse (Bonasa umbellus)
 ##  across a 858,000 ha study area in North Georgia (GA), USA, from Clayton D. Delancey,
-##  William B. Lewis, Gregory T. Wann, Richard B. Chandler, Mark D. McConnell, Emily
-##  Rushton, and James A. Martin. Assessing the utility of Automated Recording Units 
-##  and spring drumming surveys for monitoring abundance of Ruffed Grouse (Bonasa umbellus).
+##  William B. Lewis, Gregory T. Wann, Richard B. Chandler, Emily Rushton, and James A.
+##  Martin. Assessing the utility of autonomous recording units and spring drumming surveys
+##  for monitoring abundance of ruffed grouse (Bonasa umbellus).
 ## Corresponding author: Will Lewis (wblewis7@gmail.com), University of Georgia.
 ################################################################################
 
 
 
 # Monitoring data simulated for ruffed grouse (RUGR) via spring roadside drumming 
-#   point counts with or without deployment of Automated Recording Units (ARUs).
+#   point counts with or without deployment of Autonomous Recording Units (ARUs).
 #   Grouse abundance in this area has been monitored using spring roadside drumming 
 #   counts at 59 roadside survey routes, each consisting of 8 - 15 survey points
 #   (633 survey point total).
@@ -35,9 +35,9 @@
 
 
 # Data was simulated and saved out in the script RUGR_generating_simdata_NGA_code.R
-# Analyzing using Bayesian hierarchical models in NIMBLE. The basis of the model is
-#   the distance-sampling N-mixture model of Royle et al (2004, Modeling abundance
-#   effects in distance sampling) modified to decompose the detection process into
+# Analyzing using Bayesian hierarchical models in NIMBLE. The basis of the model is the
+#   N-mixture model of Royle et al (2004, Modeling abundance effects in distance sampling) 
+#   modified to account for distance sampling and to decompose the detection process into
 #   availability and conditional detectability and to incorporate ARUs.
 # Setting an informative Uniform prior on sigma, the parameter informing the scale 
 #   of the Half-Normal point-count detection process, from 90 - 130 (true value: 112.4).
