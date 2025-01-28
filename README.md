@@ -1,8 +1,8 @@
 # RUGR_GA_simulations
-R and NIMBLE code for simulating and analyzing data to asses the efficacy of integrating Automated Recording Units (ARUs) and spring drumming point counts for monitoring populations of ruffed grouse (Bonasa umbellus).
+R and NIMBLE code for: Assessing the utility of autonomous recording units and spring drumming surveys for monitoring abundance of ruffed grouse (Bonasa umbellus).
 ----
-authors: William B. Lewis, Gregory T. Wann, Richard B. Chandler, Mark D. McConnell, Emily Rushton, and James A. Martin
-
+authors: Clayton D. Delancey, William B. Lewis*, Gregory T. Wann, Richard B. Chandler, Emily Rushton, and James A. Martin
+* corresonding author: William B. Lewis, University of Georgia, wblewis7@gmail.com
 
 ---
 
