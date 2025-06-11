@@ -120,7 +120,7 @@ Density.val <- c(0.003,0.006,0.011,0.022) # Average density (males/ha) across th
 Periods <- 1:3 # Number of repeat point count surveys
 Routes <- seq(20,50,by=10) # Number of survey routes
 ARUs <- c(0,40,80) # Number of survey sites with ARU deployment
-sims <- 500 # Number of simulations per scenario
+sims <- 200 # Number of simulations per scenario
 
 
 
